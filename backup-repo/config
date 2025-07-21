@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://github.com/ntious/S3LiteNet
+	tagOpt = --no-tags
+	fetch = +refs/*:refs/*
+	mirror = true

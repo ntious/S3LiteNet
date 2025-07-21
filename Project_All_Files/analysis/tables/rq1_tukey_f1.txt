@@ -1,0 +1,20 @@
+               Multiple Comparison of Means - Tukey HSD, FWER=0.05               
+=================================================================================
+        group1                group2        meandiff p-adj   lower  upper  reject
+---------------------------------------------------------------------------------
+                  CNN             CNN & GRU   0.0849 0.0007  0.0283 0.1415   True
+                  CNN Distilled Transformer   0.0819 0.0011  0.0252 0.1385   True
+                  CNN                   GRU   0.0848 0.0007  0.0281 0.1414   True
+                  CNN                  LSTM   0.0845 0.0007  0.0279 0.1411   True
+                  CNN            Simple RNN   0.0846 0.0007  0.0279 0.1412   True
+            CNN & GRU Distilled Transformer  -0.0031    1.0 -0.0597 0.0536  False
+            CNN & GRU                   GRU  -0.0002    1.0 -0.0568 0.0564  False
+            CNN & GRU                  LSTM  -0.0004    1.0  -0.057 0.0562  False
+            CNN & GRU            Simple RNN  -0.0004    1.0  -0.057 0.0562  False
+Distilled Transformer                   GRU   0.0029    1.0 -0.0537 0.0595  False
+Distilled Transformer                  LSTM   0.0027    1.0  -0.054 0.0593  False
+Distilled Transformer            Simple RNN   0.0027    1.0 -0.0539 0.0593  False
+                  GRU                  LSTM  -0.0002    1.0 -0.0568 0.0564  False
+                  GRU            Simple RNN  -0.0002    1.0 -0.0568 0.0564  False
+                 LSTM            Simple RNN      0.0    1.0 -0.0566 0.0566  False
+---------------------------------------------------------------------------------
