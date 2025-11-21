@@ -1,8 +1,6 @@
 # Evaluating Lightweight Neural Models for Edge-Based Anomaly Detection: Performance and Efficiency Trade-offs
 ## Usage instructions and project overview
 
-readme_path = Path("3SLiteNet/Project_All_Files/Readme.md")
-readme_content = '''
 # 🧠 TensorFlow Lightweight Model Benchmark
 This project compares lightweight neural network architectures using TensorFlow, with support for pruning, quantization, and resource profiling. Each includes baseline, optimized, and quantized + pruned versions.
 ### Summary of Models:
@@ -14,8 +12,8 @@ This project compares lightweight neural network architectures using TensorFlow,
 * SimpleRNN
 
 ## 📁 Project Structure
+```bash
 
-'''
 benchmark_structured/
 │
 ├── config.py # Shared hyperparameters and dataset path
@@ -44,7 +42,7 @@ benchmark_structured/
 │ └── result_logger.py # Centralized result saving to CSV
 │
 └── results/ # CSV outputs for each model
-
+```
 
 ---
 
