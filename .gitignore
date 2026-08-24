@@ -1,0 +1,24 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter-generated files
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Tooling and operating-system files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# Local repository backups
+backup-repo/
