@@ -44,6 +44,8 @@ If you use this repository, please cite our preprint:
 
 > Nti et al. “Evaluating Lightweight Neural Models for Edge-Based Anomaly Detection: Performance and Efficiency Trade-offs.” *Research Square Preprint* (2025). [https://doi.org/10.21203/rs.3.rs-7138288/v1](https://doi.org/10.21203/rs.3.rs-7138288/v1)
 
+To cite the software release, use the archived version: [S3LiteNet v1.0.0](https://github.com/ntious/S3LiteNet/releases/tag/v1.0.0), Zenodo DOI [10.5281/zenodo.24046713](https://doi.org/10.5281/zenodo.24046713). The DOI for the project across versions is [10.5281/zenodo.24046712](https://doi.org/10.5281/zenodo.24046712).
+
 **BibTeX:**
 ```bibtex
 @article{asiedu2025s3litenet,
