@@ -1,10 +1,10 @@
-tensorflow==2.15
+tensorflow==2.21.0
 tensorflow-model-optimization
 scikit-learn
 imbalanced-learn
 pandas
 psutil
-tf_keras==2.15.0
+tf_keras==2.21.0
 numpy
 scipy
 matplotlib
